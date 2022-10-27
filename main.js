@@ -7,7 +7,7 @@ const lista = [
 ]
 const listUN = document.querySelector("#lista-spesa");
 let i = 0;
-while(i < lista.length){
+while (i < lista.length, i++ ){
     const elemnti = document.createElement("li");
     const contenuto = document.createElement("div");
     contenuto.setAttribute("src", lista[i]);
