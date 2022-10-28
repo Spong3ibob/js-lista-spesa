@@ -9,8 +9,8 @@ const listUN = document.querySelector("#lista-spesa");
 let i = 0;
 while (i < lista.length ){
     const elemnti = document.createElement("li");
-    elemnti.append(lista)
-    elemnti.append(listUN);
+    elemnti.innerHTML = lista[i]; 
+    listUN.append(elemnti);
     i++;
 }
 console.log(lista)
